@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nb-infotech.github.io/Chrome-InfraLense/sitemap.xml
