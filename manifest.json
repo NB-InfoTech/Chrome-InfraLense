@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "InfraLens - Security & Infra Page Inspector",
+  "version": "1.5.0",
+  "description": "Inspect HTTPS usage, security headers, cookies, mixed content, redirects, and risk score for the current webpage.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "InfraLens",
+    "default_popup": "popup.html"
+  },
+  "options_page": "settings.html",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

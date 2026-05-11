@@ -1,0 +1,11 @@
+﻿*.zip
+*.crx
+*.pem
+*.key
+*.log
+node_modules/
+dist/
+build/
+*-backup*/
+Firefox infraLense work/
+Original Icons/
