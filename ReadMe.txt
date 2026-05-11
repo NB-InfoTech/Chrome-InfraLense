@@ -109,3 +109,4 @@ Change history
 - 2026-05-10: Expanded Site Details with language/runtime, TLS certificate issuer, web application version, theme, content directory, and ads/analytics detection in the parallel build.
 - 2026-05-10: Added NB InfoTech branding, YouTube channel link, and review/rating request to the settings page.
 - 2026-05-11: Synced Chrome extension UI, feature settings, Site Details, external scanner grouping, NB InfoTech settings card, and README structure from the Firefox InfraLens version. Chrome uses service_worker background and DNS-over-HTTPS for IP lookup.
+- 2026-05-11: Published Chrome InfraLens source code to https://github.com/NB-InfoTech/Chrome-InfraLense.
